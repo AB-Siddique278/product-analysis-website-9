@@ -7,16 +7,16 @@ This is github link in our project [See source code in github](https://github.co
 
 
 ## How I create this project
- Markup : * Firstly I create React app [npx create-react-app my-app](https://reactjs.org/docs/create-a-new-react-app.html).\
-              * Then Secondly I make some components.\
-                  * Then i have to instll react routing [For navbar](https://reactrouter.com/docs/en/v6/getting-started/installation).\
-          4. Then I make custom Nav link.
-          5. Then I also make home page.
-          6. Maker a Data json for customer.
-          7. This json file fatch and using dstrictring and make User Review.
-          8. I also make a 404 page for page not found .
-          9. And fixed netlify 404 page not found   .
-          10. I also make a blog page .
+ Markup : * Firstly I create React app [npx create-react-app my-app](https://reactjs.org/docs/create-a-new-react-app.html)
+              * Then Secondly I make some components
+                  * Then i have to instll react routing [For navbar](https://reactrouter.com/docs/en/v6/getting-started/installation)
+          * Then I make custom Nav link
+          * Then I also make home page
+          * Maker a Data json for customer
+          * This json file fatch and using dstrictring and make User Review
+          * I also make a 404 page for page not found 
+          * And fixed netlify 404 page not found   
+          * I also make a blog page 
 
 
 In the project directory, you can run:
