@@ -63,17 +63,43 @@ const Dashbord = () => {
                     <YAxis />
                 </LineChart>
 
-
-
                 <LineChart width={400} height={400} data={data}>
-                    <Line type="monotone" dataKey="investment" stroke="#8884d8" />
-                    <CartesianGrid stroke="#ccc" />
-                    <XAxis dataKey="month" />
-                    <YAxis />
+                    <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                 </LineChart>
 
 
-              
+                <ResponsiveContainer width="100%" height="100%">
+                    <BarChart width={150} height={40} data={data}>
+                        <Bar dataKey="investment" fill="#8884d8" />
+                    </BarChart>
+                </ResponsiveContainer>
+
+
+
+                <ResponsiveContainer width="100%" height="100%">
+                    <BarChart
+                        width={500}
+                        height={300}
+                        data={data}
+                        margin={{
+                            top: 5,
+                            right: 30,
+                            left: 20,
+                            bottom: 5,
+                        }}
+                    >
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="investment" fill="#8884d8" />
+                        <Bar dataKey="sell" fill="#82ca9d" />
+                    </BarChart>
+                </ResponsiveContainer>
+
+
+
 
 
 

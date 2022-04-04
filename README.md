@@ -1,6 +1,6 @@
 # wellcome to Khaiba Naki
 
-This is our live project [See now live project ]().
+This is our live project [See now live project ](https://luminous-moonbeam-9afd34.netlify.app/).
 
 ## Github Code 
 This is github link in our project [See source code in github](https://github.com/programming-hero-web-course-4/product-analysis-website-AB-Siddique278).
