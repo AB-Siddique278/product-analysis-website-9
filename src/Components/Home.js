@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'
+import useReview from './useReview';
 
 
 const Home = () => {
+    const [review, setReview] = useReview();
+
+    let item = review.slice(1, 4)
+    console.log(item)
+
     return (
         <div>
             <div className='container'>
@@ -29,10 +35,15 @@ const Home = () => {
 
 
                 <div className=' justify-content-center'>
-                    <h3 className='mb-5 text-center'>Customer Revew (3) </h3>
+                    <h3 className='mb-5 text-center'>Customer Revew {item.length} </h3>
+                    <div className='text-center mb-3'>
 
+                        {
+                            item.map(it => (<li>{it.name}   {it.review}  {it.rating}</li>))
+                        }
+                    </div>
 
-                    <div className='d-flex justify-content-center' >
+                    <div className='text-center' >
 
 
                         <Link to="/reviews"> <button type="button" class="btn btn-primary btn-lg"> See all Reviews</button></Link>
