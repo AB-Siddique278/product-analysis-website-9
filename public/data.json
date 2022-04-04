@@ -9,7 +9,7 @@
   {
     "id": "2",
     "name": "Md Shakil",
-    "review": "Best products",
+    "review": "low cost Best",
     "rating": "5 Star",
     "picture": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&w=1000&q=80"
   },
@@ -23,21 +23,21 @@
   {
     "id": "4",
     "name": "Sherin",
-    "review": "Best products",
+    "review": "Favourite One",
     "rating": "5 Star",
     "picture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg"
   },
   {
     "id": "5",
     "name": "Al Mahamud",
-    "review": "Best products",
+    "review": "Juicy and spicy",
     "rating": "5 Star",
     "picture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg"
   },
   {
     "id": "6",
     "name": "Pias",
-    "review": "Best products",
+    "review": "Not bad",
     "rating": "5 Star",
     "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFjZSUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
   }
