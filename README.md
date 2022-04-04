@@ -7,9 +7,9 @@ This is github link in our project [See source code in github](https://github.co
 
 
 ## How I create this project
- Markup : 1. Firstly I create React app [npx create-react-app my-app](https://reactjs.org/docs/create-a-new-react-app.html).
-              2. Then Secondly I make some components
-                  3. Then i have to instll react routing [For navbar](https://reactrouter.com/docs/en/v6/getting-started/installation).
+ Markup : * Firstly I create React app [npx create-react-app my-app](https://reactjs.org/docs/create-a-new-react-app.html).\
+              * Then Secondly I make some components.\
+                  * Then i have to instll react routing [For navbar](https://reactrouter.com/docs/en/v6/getting-started/installation).\
           4. Then I make custom Nav link.
           5. Then I also make home page.
           6. Maker a Data json for customer.
