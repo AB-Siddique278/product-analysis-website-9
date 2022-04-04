@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 
@@ -32,6 +33,30 @@ const Home = () => {
 
 
                 </div>
+
+
+                <div className=' justify-content-center'>
+                    <h3 className='mb-5 text-center'>Customer Revew (3) </h3>
+                    <div className='d-flex justify-content-center' >
+
+
+                        <Link to="/reviews"> <button type="button" class="btn btn-primary btn-lg"> See all Reviews</button></Link>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     );

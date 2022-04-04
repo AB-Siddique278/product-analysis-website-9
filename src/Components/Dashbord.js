@@ -1,22 +1,10 @@
+import { Tooltip } from 'bootstrap';
 import React from 'react';
 
-import { CartesianGrid, Line, LineChart,  XAxis, YAxis } from 'recharts';
+
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 
 const Dashbord = () => {
-
-
-
-
-
-
-
-    // return (
-    //     <div>
-    //         <h1>Wellcome to dashbord</h1>
-
-    //     </div>
-    // );
-
 
     const data = [
         {
@@ -62,8 +50,8 @@ const Dashbord = () => {
 
             <div>
 
-                
-           
+
+
 
 
 
@@ -75,6 +63,8 @@ const Dashbord = () => {
                     <YAxis />
                 </LineChart>
 
+
+
                 <LineChart width={400} height={400} data={data}>
                     <Line type="monotone" dataKey="investment" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" />
@@ -83,6 +73,7 @@ const Dashbord = () => {
                 </LineChart>
 
 
+              
 
 
 
@@ -99,3 +90,6 @@ const Dashbord = () => {
 };
 
 export default Dashbord;
+
+//this is practice for multipule charts
+
